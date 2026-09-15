@@ -1,0 +1,9 @@
+{
+  "id":"cpuspoof",
+  "name":"CPUINFO Spoof",
+  "version":"v1.0",
+  "versionCode":1,
+  "author":"PengXing791",
+  "description":"Spoof /proc/cpuinfo",
+  "scope":"system"
+}
