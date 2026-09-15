@@ -4,11 +4,11 @@ on:
     branches: [ main ]
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu‑latest
     steps:
       - uses: actions/checkout@v4
-      - name: Build
-        uses: bmax121/kpm-build-action@main
+      - name: build kpm
+        uses: APatchTeam/kpm-build-action@main
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
